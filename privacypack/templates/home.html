@@ -1,0 +1,14 @@
+{% load socialaccount %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World</title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <div class="hero-sign-up-bg bg-fx-gradient fx-gradient-btn">
+      <a href="{% provider_login_url 'fxa' process='login' %}">SIGN IN</a>
+    </div>
+  </body>
+</html>
