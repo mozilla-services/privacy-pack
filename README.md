@@ -21,7 +21,7 @@ Mozilla privacy products under a single pack.
     pyenv activate privacy-pack
     ```
 
-3. Install Pyhton and Node requirements:
+3. Install Python requirements:
 
     ```sh
     pip install -r requirements.txt
